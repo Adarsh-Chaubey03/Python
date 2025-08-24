@@ -58,8 +58,8 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sakshigupta67&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="200" style="vertical-align:top; margin-right: 10px;" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sakshigupta67&theme=tokyonight&hide_border=true" height="200" style="vertical-align:top;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sakshigupta67&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" width="400" style="vertical-align:top; margin-right: 10px;" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sakshigupta67&theme=tokyonight&hide_border=true" height="160" width="400" style="vertical-align:top;" />
 </div>
 
 

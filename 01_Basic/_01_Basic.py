@@ -5,3 +5,5 @@ def chai(n):
 
 chai(4)
 chai("lemon tea")
+chai_one = "dark tea"
+chai_two = "milk tea"

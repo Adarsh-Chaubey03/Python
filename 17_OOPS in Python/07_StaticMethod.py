@@ -1,12 +1,12 @@
-# Add a class variable in class that keeps the track of number of class created
+# Add a static method to Car class that returns a general description of the car
+
+# static method- method that belongs to class rather than instance of the class. Object Cannot
+# access it.
 
 class Car:  
-    totalCar = 0
-
     def __init__(self,brand,model): 
         self.__brand = brand 
         self.model = model
-        Car.totalCar += 1
     
     def get_brand(self):
         return self.brand + "!"
@@ -16,6 +16,9 @@ class Car:
     
     def fuel_type(self):
         return "Petrol or Diesel"
+    @staticmethod
+    def general_description(): # No need of self as object can't ever access it
+        return "Cars are means of transport"
 
 
 class ElectricCar(Car):
@@ -27,8 +30,7 @@ class ElectricCar(Car):
     def fuel_type(self):
         return "Electric Charge"
 
-safari = Car("Tata","Diesel")
-safari3 = Car("Tata","Diesel")
 test = Car("Tata","Diesel")
+# print(test.general_description()) # can't access the static method
 
-print(Car.totalCar) # 3
+print(Car.general_description()) # Cars are means of transport

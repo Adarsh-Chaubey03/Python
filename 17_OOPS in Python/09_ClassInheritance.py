@@ -1,5 +1,4 @@
-# Make brand attribute private and create a getter method to access brand attribute using this method
-# This will prevent direct access 
+# Demonstrate the use of isinstance() to check if myTestla is an instance of Car and ElectricCar
 
 
 class Car:  
@@ -22,5 +21,5 @@ class ElectricCar(Car):
 
 myTesla = ElectricCar("Tesla","Model S","85KwH")
 
-# print(myTesla.__brand)       # No Access Outside Class for private attributes
-print(myTesla.get_brand())  # Tesla!
+print(isinstance(myTesla,Car))   # True
+print(isinstance(myTesla,ElectricCar))  #True

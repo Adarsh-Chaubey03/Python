@@ -1,21 +1,25 @@
-# Add a class variable in class that keeps the track of number of class created
+# make model attribute read only
 
 class Car:  
-    totalCar = 0
-
     def __init__(self,brand,model): 
         self.__brand = brand 
-        self.model = model
-        Car.totalCar += 1
+        self.__model = model
     
     def get_brand(self):
         return self.brand + "!"
     
     def full_name(self):
-        return f"{self.__brand} {self.model}"
+        return f"{self.__brand} {self.__model}"
     
     def fuel_type(self):
         return "Petrol or Diesel"
+    @staticmethod
+    def general_description(): # No need of self as object can't ever access it
+        return "Cars are means of transport"
+    
+    @property
+    def model(self):
+        return self.__model
 
 
 class ElectricCar(Car):
@@ -27,8 +31,7 @@ class ElectricCar(Car):
     def fuel_type(self):
         return "Electric Charge"
 
-safari = Car("Tata","Diesel")
-safari3 = Car("Tata","Diesel")
 test = Car("Tata","Diesel")
+# test.model = "City" # Property model has no setter method
 
-print(Car.totalCar) # 3
+print(test.model) # Diesel

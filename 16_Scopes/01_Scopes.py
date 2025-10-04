@@ -56,5 +56,5 @@ f = chai(2)
 g = chai(3)
 
 print(f) # <function chai.<locals>.actual at 0x000002943177C4A0>
-print(f(3))
-print(g(3))
+print(f(3)) # 9
+print(g(3)) # 27

@@ -1,18 +1,23 @@
+## Creating Class And Object
+
 # class Car:
 #     brand = None
 #     model = None
 
 class Car:
-    def __init__(self,brand,model):
+    def __init__(self,brand,model): # Constructor
         self.brand = brand
         self.model = model
-
-
-
 
 # Creating an object of the class Car
 # Car()
 myCar = Car("Toyota","Corola") 
+print(myCar)
+print(myCar.brand)  # Toyota
+
+myCar2 = Car("Tata", "Safari")
+print(myCar2.model) # Safari
+
 
 # def __init__(self,ubrand,uModel):
 # TypeError: Car.__init__() takes 2 positional arguments but 3 were given
@@ -26,9 +31,3 @@ myCar = Car("Toyota","Corola")
 # def __init__(ubrand, uModel):
 # But when you call myCar = Car("Toyota", "Corola"), Python actually tries to run it like this:
 # __init__(myCar, "Toyota", "Corola")
-
-print(myCar)
-print(myCar.brand)  # Toyota
-
-myCar2 = Car("Tata", "Safari")
-print(myCar2.model)

@@ -1,5 +1,5 @@
 ---
- ### Python Full Class Notes
+ ### Python Full Notes And Mini Projects
  ---
 
 
@@ -24,5 +24,6 @@ Course Structure : Python/
 ├── 15_Function/
 ├── 16_Scopes/
 ├── 17_OOPS in Python/
+├── 18_Decorators/
 └── README.md
 ```

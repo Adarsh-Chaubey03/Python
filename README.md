@@ -1,5 +1,5 @@
 ---
- ### Python Full Class Notes
+ ### Python Full Class Notes And Mini Projects
  ---
 
 

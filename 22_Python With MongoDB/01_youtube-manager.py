@@ -3,7 +3,7 @@ from bson import ObjectId
 
 
 client = MongoClient(
-    "mongodb+srv://youtubepy:youtubepy123@cluster0.navybko.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://youtubepy:<password>@cluster0.navybko.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
 # Not a better way to keep id and password in code file. Above db is now deleted
 

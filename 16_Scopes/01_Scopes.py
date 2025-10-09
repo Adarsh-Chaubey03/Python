@@ -1,5 +1,6 @@
 username = "chaiaurcode"
 
+
 def func():
     username = "chai"
     # If this username is removed func will print the username in global scope

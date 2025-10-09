@@ -27,6 +27,9 @@ Course Structure : Python/
 ├── 18_Decorators/
 ├── 19_Error Handling/
 ├── 20_SQLite3(Database)/
-├── 21_API Handling
+├── 21_API Handling/
+├── 22_Python With MongoDB/
+├── 23_Python Virtual Environment/
+├── 24_Conda And Jupitor Notebook in Python/
 └── README.md
 ```

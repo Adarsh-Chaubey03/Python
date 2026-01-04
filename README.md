@@ -12,7 +12,7 @@ Course Structure : Python/
 ├── 03_Python in Shell/
 ├── 04_Mutable And Immutable/
 ├── 05_DataType/
-├── 06_Internal Working-II/
+├── 06_Operators In Python/
 ├── 07_Numbers/
 ├── 08_Strings/
 ├── 09_List/

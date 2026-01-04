@@ -1,0 +1,5 @@
+n=4
+for x in range(1,11):
+    print(n*x, end=" ")
+    
+    #  end=" " => so that it does not print in separate line

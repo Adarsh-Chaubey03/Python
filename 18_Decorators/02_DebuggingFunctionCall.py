@@ -16,3 +16,12 @@ def greet(name,greeting="Hello"):
 
 greet()  # calling greet with args  and kwargs 
 greet("adarsh",greeting="hii")  # calling greet with args adarsh and kwargs greeting=hii
+
+'''
+Real-World Uses of Decorators
+Logging: Track function calls (e.g., @logger).
+Authentication: Restrict access in web apps (e.g., Flask/Django).
+Rate Limiting: Control API usage per user.
+Caching: Store results using functools.lru_cache.
+Retry Logic: Automatically retry failed network calls.
+'''

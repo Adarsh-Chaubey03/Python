@@ -18,7 +18,6 @@ PYTHON/
 ├── 06_Numbers/
 ├── 07_Strings/
 ├── 08_Sets/
-│   └── 01_Sets.py
 ├── 09_List/
 ├── 09(a)_ListComprehension/
 ├── 09(b)_Arrays/
